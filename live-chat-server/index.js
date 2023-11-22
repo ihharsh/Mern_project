@@ -7,7 +7,7 @@ const { notFound, errorHandler } = require("./middleware/errorMiddleware");
 
 app.use(
   cors({
-    origin: ["mern-project-final-rho.vercel.app"],
+    origin: [""],
     methods: ["POST","GET"],
     credentials: true
   })
